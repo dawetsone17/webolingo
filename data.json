@@ -1,0 +1,177 @@
+[
+  {
+    "info": "V jazyce HTML se používají takzvané tagy (značky), které prohlížeči říkají, jak má zobrazit jednotlivé části stránky. Každá webová stránka začíná a končí tagem <html>, který slouží jako obal pro celý obsah stránky. Tento tag je párový, což znamená, že má vždy otevírací značku (<html>) a zavírací značku (</html>), přičemž všechen obsah stránky se nachází mezi nimi. Stejný princip párových tagů se používá i u mnoha dalších značek v HTML. Díky tomu je kód přehledný a srozumitelný pro prohlížeč i vývojáře.",
+    "question": "Doplň značku pro obalení stránky:",
+    "sentence": "<__>Obsah celé stránky</__>",
+    "correct": ["html", "html"],
+    "options": ["html", "head", "body", "main"]
+  },
+  {
+    "info": "V HTML se značka <h1> používá pro hlavní nadpis stránky. Kromě ní existuje celkem šest úrovní nadpisů – od <h1> (nejdůležitější) po <h6> (nejméně důležitý). Tyto nadpisy slouží k členění obsahu a usnadňují orientaci jak uživatelům, tak vyhledávačům. Každý z nich je párový, tedy má otevírací a zavírací značku, a jejich velikost i význam postupně klesá. Správné používání nadpisů pomáhá vytvářet přehlednou a srozumitelnou strukturu stránky.",
+    "question": "Doplň značku pro hlavní nadpis:",
+    "sentence": "<__>Toto je hlavní nadpis</__>",
+    "correct": ["h1", "h1"],
+    "options": ["h1", "p", "div", "h6"]
+  },
+  {
+    "info": "V HTML se značka <p> používá pro odstavce textu. Jedná se o párový tag, který začíná značkou <p> a končí značkou </p>, přičemž samotný text odstavce je umístěn mezi nimi. Odstavce slouží k rozdělení textu na logické celky, čímž zvyšují čitelnost a přehlednost obsahu. Prohlížeč automaticky zobrazí každý odstavec s malým odsazením nebo mezerou nad a pod textem, takže text není zbytečně nahuštěný.",
+    "question": "Doplň značku pro odstavec:",
+    "sentence": "<__>Toto je odstavec</__>",
+    "correct": ["p", "p"],
+    "options": ["p", "h1", "span", "a"]
+  },
+  {
+    "info": "V HTML se značka <a> používá pro vytváření odkazů na jiné stránky nebo části dokumentu. Jde o párový tag, který má tvar <a href=`adresa`>text odkazu</a>. Vlastnost href určuje cílovou adresu, kam odkaz vede. Text mezi značkami je to, na co uživatel kliká. Odkazy jsou klíčovým prvkem webu, protože umožňují propojení jednotlivých stránek a navigaci mezi nimi. Mohou vést na jiné weby, na jiné části stejné stránky nebo otevřít e-mailový klient.",
+    "question": "Doplň značku pro odkaz:",
+    "sentence": "<__ href='https://example.com'>Klikni zde</__>",
+    "correct": ["a", "a"],
+    "options": ["a", "link", "button", "div"]
+  },
+  {
+    "info": "V HTML se značka <img> používá pro zobrazení obrázku na stránce. Na rozdíl od jiných tagů je nepárová, což znamená, že nemá uzavírací značku. Všechny potřebné informace se uvádějí uvnitř samotného tagu, nejčastěji pomocí vlastnosti src, která určuje adresu obrázku, a alt, která poskytuje textový popis, pokud se obrázek nezobrazí. Správné použití značky <img> zlepšuje nejen vzhled stránky, ale i její dostupnost a SEO.",
+    "question": "Doplň značku pro obrázek:",
+    "sentence": "<__ src='obrazek.jpg' alt='popis'>",
+    "correct": ["img"],
+    "options": ["img", "image", "picture", "src"]
+  },
+  {
+    "info": "V HTML se značka <button> používá pro vytvoření tlačítka, na které může uživatel kliknout. Jedná se o párový tag, takže se skládá z otevírací značky <button> a zavírací značky </button>, přičemž text nebo ikona tlačítka se nachází mezi nimi. Tlačítka se často používají pro odesílání formulářů, spuštění akcí pomocí JavaScriptu nebo interakci s uživatelem. Díky značce <button> lze vytvářet funkční a vizuálně přitažlivé ovládací prvky na webových stránkách.",
+    "question": "Doplň značku pro tlačítko:",
+    "sentence": "<__>Klikni mě</__>",
+    "correct": ["button", "button"],
+    "options": ["button", "input", "div", "click"]
+  },
+  {
+    "info": "Zopakuj si, co ses naučil – doplň více značek do celého HTML úryvku. Nejprvé hlavní nadpis, poté odstavec a nakonec odkaz",
+    "question": "Vyplň všechny značky na správná místa:",
+    "sentence": "<__>Moje stránka</__>\n<__>Toto je odstavec</__>\n<__ href='url'>Odkaz</__>",
+    "correct": ["h1", "h1", "p", "p", "a", "a"],
+    "options": ["h1", "p", "a", "button", "img"]
+  },
+  {
+    "info": "S nadpisem h1 jsme se už potkali na začátku. Pojďme si vytvořit nadpis h2, který je také párový, takže je potřeba ho dát na začátek řádku a na konec řádku.",
+    "question": "Doplň značku pro podnadpis:",
+    "sentence": "<h1>ZŠ T. G. Masaryka Mnichovice</h1>\n<__>vítejte na stránkách mnichovické školy</__>",
+    "correct": ["h2", "h2"],
+    "options": ["h2", "h3", "p", "strong"]
+  },
+  {
+    "info": "Značka <strong> slouží k zvýraznění důležitého textu, který by měl upoutat pozornost čtenáře. Jde o párový tag, takže se skládá z úvodní značky <strong> a koncové značky </strong>, mezi nimiž je umístěn zvýrazněný obsah. Text uvnitř se obvykle zobrazí tučně, ale hlavním smyslem značky není vzhled, nýbrž zdůraznění významu – tedy že daná informace je důležitá. Pro vyhledávače a asistivní technologie to znamená, že daný úsek textu má větší váhu než okolní obsah.",
+    "question": "Doplň značku pro zvýraznění:",
+    "sentence": "<p>Tady by byl nějaký text <__>ale tento je důležitější</__> než ostatní </p>",
+    "correct": ["strong", "strong"],
+    "options": ["strong", "em", "b", "span"]
+  },
+  {
+    "info": "Značka <em> se používá pro zdůraznění části textu, obvykle tak, že se zobrazí kurzívou. Na rozdíl od čistě vizuálního formátování dává tato značka najevo, že daný text má být čten s důrazem – například pro zvýšení významu ve větě. Jedná se o párový tag, tedy začíná značkou <em> a končí </em>. Význam této značky ocení nejen čtenáři, ale i vyhledávače a asistivní technologie, které ji chápou jako důležitý prvek pro interpretaci obsahu.",
+    "question": "Doplň značku pro zdůraznění:",
+    "sentence": "<p>Sem bychom napsali nějaký text a <__>tuto část</__> bychom zvýraznili</p>",
+    "correct": ["em", "em"],
+    "options": ["em", "strong", "i", "mark"]
+  },
+  {
+    "info": "Značka <ul> se používá k vytvoření nečíslovaného seznamu, tedy takového, kde jsou položky označeny například tečkou nebo jiným symbolem. Jedná se o párový tag – začíná značkou <ul> a končí </ul>. Uvnitř tohoto bloku se jednotlivé položky zapisují pomocí tagu <li>, což znamená `list item` (položka seznamu). Tento typ seznamu je ideální pro výčet možností, vlastností nebo přehled bodů, které nemají pevně dané pořadí. Je přehledný a snadno čitelný jak pro návštěvníky stránky, tak pro její strukturu.",
+    "question": "Doplň značku pro seznam:",
+    "sentence": "<__>\n  <li>Položka</li>\n</__>",
+    "correct": ["ul", "ul"],
+    "options": ["ul", "ol", "li", "dl"]
+  },
+  {
+    "info": "Značka <li> představuje jednotlivou položku seznamu, ať už se jedná o seznam nečíslovaný (<ul>) nebo číslovaný (<ol>). Každá položka se zapisuje jako samostatný párový tag, tedy <li>Obsah položky</li>. Díky ní lze strukturovaně zobrazit body, kroky nebo výčty, které jsou přehledné pro čtenáře i pro samotné formátování stránky. Správné použití značky <li> pomáhá udržet pořádek v obsahu a dává webu logickou strukturu.",
+    "question": "Doplň značku pro položku seznamu:",
+    "sentence": "<ul>\n  <__>Položka</__>\n</ul>",
+    "correct": ["li", "li"],
+    "options": ["li", "ul", "ol", "item"]
+  },
+  {
+    "info": "Ukáž co ses naučitl/a a doplň několik tagů. Začneme názvem druhé úrovně, kterým obalíme text Seznam, dále přidáme tag pro nečíslovaný seznam a přidáme dvě položky. Nakonec nezapomeň celý seznam zavřít.",
+    "question": "Doplň správné značky do ukázky:",
+    "sentence": "<__>Seznam:</__>\n<__>\n  <__>První položka</__>\n  <__>Druhá položka</__>\n</__>",
+    "correct": ["h2", "h2", "ul", "li", "li", "li", "li", "ul"],
+    "options": ["ul", "li", "h2", "p", "em"]
+  },
+  {
+    "info": "Značka <input> slouží k vytvoření interaktivního pole, do kterého může uživatel zadat informace – například text, číslo, datum nebo zaškrtnout políčko. Jedná se o nepárový tag, tedy nemá uzavírací značku. Klíčovým prvkem je atribut type, který určuje druh vstupu (např. text, checkbox, radio, email, apod.). Tag <input> je základním stavebním kamenem každého formuláře a umožňuje webové stránce získávat data od návštěvníka.",
+    "question": "Doplň značku pro vstupní pole:",
+    "sentence": "<__ type='text'>",
+    "correct": ["input"],
+    "options": ["input", "form", "button", "textarea"]
+  },
+  {
+    "info": "Značka <form> slouží jako obal pro celý formulář, tedy pro všechny vstupní prvky, tlačítka a popisky, které dohromady tvoří jeden logický celek. Jde o párový tag – začíná značkou <form> a končí </form>. Uvnitř mohou být různé typy <input>, <label>, <textarea>, <button> a další prvky. Důležité jsou také atributy action (kam se data odešlou) a method (způsob odeslání, např. GET nebo POST). Bez značky <form> by se jednotlivé prvky nemohly spojit do jednoho funkčního formuláře.",
+    "question": "Doplň značku pro formulář:",
+    "sentence": "<__ action='/odeslat'></__>",
+    "correct": ["form", "form"],
+    "options": ["form", "input", "div", "fieldset"]
+  },
+  {
+    "info": "Značka <label> slouží k označení a popisu vstupního pole ve formuláři. Pomáhá uživateli pochopit, co má do daného pole vyplnit. Jedná se o párový tag, tedy má tvar <label>Text popisku</label>. Obvykle bývá propojen s konkrétním <input> prvkem pomocí atributu for, který odpovídá hodnotě id u vstupního pole. Díky tomu je možné na pole kliknout i přes text popisku, což zlepšuje přístupnost a uživatelský komfort. Značka <label> je důležitá zejména pro čtečky obrazovky a celkovou srozumitelnost formulářů.",
+    "question": "Doplň značku pro popis pole:",
+    "sentence": "<__ for='jmeno'>Jméno:</__>",
+    "correct": ["label", "label"],
+    "options": ["label", "legend", "caption", "span"]
+  },
+  {
+    "info": "Značka <textarea> se používá, když je potřeba víceřádkové vstupní pole, například pro komentář, zprávu nebo delší text. Jde o párový tag, takže začíná značkou <textarea> a končí </textarea>, přičemž samotný obsah (pokud je předvyplněn) se píše mezi ně. Na rozdíl od <input type=`text`> umožňuje uživatelům psát na více řádků, přičemž pole lze velikostně přizpůsobit. <textarea> je ideální pro situace, kdy je potřeba volnější a rozsáhlejší textová odpověď.",
+    "question": "Doplň značku pro textové pole:",
+    "sentence": "<__></__>",
+    "correct": ["textarea", "textarea"],
+    "options": ["textarea", "input", "form", "div"]
+  },
+  {
+    "info": "Značka <fieldset> slouží k seskupení souvisejících vstupních polí ve formuláři. Jedná se o párový tag, tedy začíná <fieldset> a končí </fieldset>. Vytváří viditelný rámeček kolem skupiny prvků, což pomáhá s přehledností a logickým uspořádáním formuláře. Často se používá spolu se značkou <legend>, která určuje nadpis této skupiny. Díky <fieldset> může být formulář rozdělen do tematických částí, což usnadňuje orientaci pro uživatele i asistivní technologie.",
+    "question": "Doplň značku pro seskupení formuláře:",
+    "sentence": "<__>\n  <label>Jméno</label>\n  <input>\n</__>",
+    "correct": ["fieldset", "fieldset"],
+    "options": ["fieldset", "form", "div", "section"]
+  },
+  {
+    "info": "Pojďme sestavit formulář. Jako první tag použij ten, který se používá pro formuláře. Dále použij tag pro nadpis. Pak použij tag pro označení vstupního pole. Jako předposlední použij vstupní tag, ten který uživateli dovolí napsat nějaký text. Na závěr musíš použít zase tag pro formulář, kterým obalíme všechny tagy uvnitř formuláře.",
+    "question": "Doplň značky do HTML formuláře:",
+    "sentence": "<__ action='/login'>\n  <__>Přihlaš se</__>\n  <__ for='user'>Uživatel</__>\n  <__ type='text'>\n</__>",
+    "correct": ["form", "h2", "h2", "label", "label", "input", "form"],
+    "options": ["form", "h2", "label", "input", "fieldset", "textarea"]
+  },
+  {
+    "info": "Značka <h3> slouží k vytvoření podnadpisu třetí úrovně, tedy menšího a méně důležitého než <h1> nebo <h2>. Jde o párový tag – začíná značkou <h3> a končí </h3>, přičemž text nadpisu je mezi nimi. Používá se pro další členění obsahu, například v rámci jednotlivých kapitol nebo sekcí stránky. Správné používání nadpisů <h1> až <h6> pomáhá vytvořit logickou a přístupnou strukturu webu, kterou ocení jak čtenáři, tak vyhledávače.",
+    "question": "Doplň značku pro H3:",
+    "sentence": "<__>Třetí úroveň nadpisu</__>",
+    "correct": ["h3", "h3"],
+    "options": ["h3", "h4", "h5", "h6"]
+  },
+  {
+    "info": "Značka <br> slouží k zalomení řádku, tedy k tomu, aby text pokračoval na novém řádku bez vytváření nového odstavce. Jedná se o nepárový tag, což znamená, že se píše pouze jako <br> bez ukončovací značky. Používá se například při zobrazování básní, adres, nebo všude tam, kde je potřeba rychle posunout text o řádek níže, aniž by se měnila struktura stránky. Je to jednoduchý, ale účinný nástroj pro úpravu vzhledu textu.",
+    "question": "Doplň značku pro nový řádek:",
+    "sentence": "Toto je první řádek<__>Druhý řádek",
+    "correct": ["br"],
+    "options": ["br", "hr", "div", "p"]
+  },
+  {
+    "info": "Značka <hr> slouží k vykreslení vodorovné čáry, která se používá jako oddělovací prvek mezi částmi obsahu. Je to nepárový tag, takže se zapisuje pouze jako <hr> bez uzavírací značky. Čára vizuálně rozděluje obsah, například jednotlivé kapitoly nebo sekce stránky, a pomáhá tak zlepšit čitelnost a přehlednost. Může být stylizována pomocí CSS (např. barva, tloušťka nebo zarovnání), což z ní dělá nejen funkční, ale i grafický prvek webu.",
+    "question": "Doplň značku pro oddělovač:",
+    "sentence": "<__>",
+    "correct": ["hr"],
+    "options": ["hr", "br", "line", "rule"]
+  },
+  {
+    "info": "Značka <div> funguje jako univerzální kontejner pro seskupení libovolného obsahu na stránce – textu, obrázků, formulářů i dalších prvků. Jedná se o párový tag, tedy má podobu <div> ... </div>, a sám o sobě nemá žádný vizuální vzhled. Jeho hlavní síla spočívá v tom, že umožňuje rozdělit stránku na logické bloky, které lze snadno stylovat pomocí CSS nebo ovládat pomocí JavaScriptu. <div> je základní stavební kámen moderního rozvržení webových stránek.",
+    "question": "Doplň značku pro kontejner:",
+    "sentence": "<__>Obsah</__>",
+    "correct": ["div", "div"],
+    "options": ["div", "section", "main", "article"]
+  },
+  {
+    "info": "Značka <span> slouží jako inline kontejner, který se používá k označení části textu nebo jiného prvku uvnitř řádku. Na rozdíl od <div>, který je blokový, zůstává <span> na stejné řádce s okolním obsahem. Jedná se o párový tag, tedy má tvar <span> ... </span>. Sám o sobě nemá žádný vzhled, ale umožňuje cílené stylování nebo skriptování konkrétních úseků textu. Je ideální například pro změnu barvy, písma nebo pro přidání efektu k části věty bez narušení její struktury.",
+    "question": "Doplň značku pro zvýraznění slova:",
+    "sentence": "Toto je <__>důležité</__> slovo.",
+    "correct": ["span", "span"],
+    "options": ["span", "em", "strong", "b"]
+  },
+  {
+    "info": "Otestujeme si co umíš. Nejprve přijde tag pro univerzální kontejner, kterým obalíme celý kód. Jako další dej hlavní nadpis. Následně přidej nadpis třetí úrvoně. Pak použij tag na odřádkování. A celý kontejner uzavři. ",
+    "question": "Doplň více značek:",
+    "sentence": "<__>\n <__>Základní škola T.G.Masaryka Mnichovice<__>\n <__>základní škola a gymnázium</__>\n  <p>Článek o naši škole na první řádek<__> a text o naší škole na další řádek</p>\n</__>",
+    "correct": ["div", "h1", "h1", "h3", "h3", "br", "div"],
+    "options": ["h1", "div", "h3", "br", "span", "p"]
+  }
+]
